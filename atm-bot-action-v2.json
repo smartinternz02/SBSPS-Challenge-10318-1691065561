@@ -1,0 +1,2066 @@
+{
+  "name": "ATM Bot-action",
+  "type": "action",
+  "counts": {
+    "actions": 26,
+    "intents": 23,
+    "entities": 3,
+    "data_types": 0,
+    "collections": 0,
+    "global_variables": 0
+  },
+  "status": "Available",
+  "language": "en",
+  "skill_id": "8110d2dc-bed0-4c80-8d97-1c9daf475c8f",
+  "workspace": {
+    "actions": [
+      {
+        "steps": [
+          {
+            "step": "step_566",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "I'm here to chat and help you feel better. Tell me, what's on your mind?"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_566"
+          }
+        ],
+        "title": "How's your day going so far?",
+        "action": "action_33980",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_33980_intent_14701"
+        },
+        "variables": [
+          {
+            "title": "I'm here to chat and help you feel better. Tell me, what's on yo",
+            "variable": "step_566",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_23198",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_708",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Sometimes a good story can take our minds off things. If you're up for it, I can recommend some."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_708"
+          }
+        ],
+        "title": "Have you come across any interesting movies or books lately?",
+        "action": "action_23198",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_23198_intent_21086"
+        },
+        "variables": [
+          {
+            "title": "Sometimes a good story can take our minds off things. If you're ",
+            "variable": "step_708",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_2672",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_824",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Hobbies can be a great way to shift our focus and relax. If you'd like, we can discuss your hobbies or explore new ones."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_824"
+          }
+        ],
+        "title": "Is there a hobby or activity that you enjoy doing to unwind?",
+        "action": "action_2672",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_2672_intent_6776"
+        },
+        "variables": [
+          {
+            "title": "Hobbies can be a great way to shift our focus and relax. If you'",
+            "variable": "step_824",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_46002",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_598",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Traveling, even in our thoughts, can transport us to new experiences. Where would you go if you could travel anywhere?"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_598"
+          }
+        ],
+        "title": "Have you traveled to any exciting places recently, or is there a",
+        "action": "action_46002",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_46002_intent_9445"
+        },
+        "variables": [
+          {
+            "title": "Traveling, even in our thoughts, can transport us to new experie",
+            "variable": "step_598",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_28048",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_288",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Music can be incredibly soothing. Feel free to share your favorite genre or artist, and I might even have a song recommendation for you."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_288"
+          }
+        ],
+        "title": "Do you have a favorite type of music that helps you relax?",
+        "action": "action_28048",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_28048_intent_25169"
+        },
+        "variables": [
+          {
+            "title": "Music can be incredibly soothing. Feel free to share your favori",
+            "variable": "step_288",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_36486",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_463",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "It's important to have coping strategies. If you're open to it, we can discuss different relaxation techniques that might work for you."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_463"
+          }
+        ],
+        "title": "How do you usually de-stress when things get tough?",
+        "action": "action_36486",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_36486_intent_47600"
+        },
+        "variables": [
+          {
+            "title": "It's important to have coping strategies. If you're open to it, ",
+            "variable": "step_463",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_33348",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_534",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Meditation and mindfulness can be great tools to calm the mind. If you're curious, I can guide you through a short mindfulness exercise."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_534"
+          }
+        ],
+        "title": "Have you tried meditation or mindfulness exercises before?",
+        "action": "action_33348",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_33348_intent_25057"
+        },
+        "variables": [
+          {
+            "title": "Meditation and mindfulness can be great tools to calm the mind. ",
+            "variable": "step_534",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_7166",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_555",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Sharing positive memories can often lighten the mood. If you're comfortable, I'd love to hear a story from your life."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_555"
+          }
+        ],
+        "title": "Are there any funny or heartwarming stories from your life that ",
+        "action": "action_7166",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_7166_intent_38783"
+        },
+        "variables": [
+          {
+            "title": "Sharing positive memories can often lighten the mood. If you're ",
+            "variable": "step_555",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_10029",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_854",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Sometimes, finding moments of serenity can make a big difference. If you're willing, we can brainstorm ways to create peaceful moments."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_854"
+          }
+        ],
+        "title": "What's your favorite way to enjoy a quiet, peaceful moment?",
+        "action": "action_10029",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_10029_intent_37807"
+        },
+        "variables": [
+          {
+            "title": "Sometimes, finding moments of serenity can make a big difference",
+            "variable": "step_854",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_30121",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_267",
+            "handlers": [],
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_267"
+          }
+        ],
+        "title": "Are there any quotes or phrases that inspire you when things fee",
+        "action": "action_30121",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_30121_intent_31923"
+        },
+        "variables": [
+          {
+            "title": "No response",
+            "variable": "step_267",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_38081",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "digression_failure",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text": "Sorry I couldn't confirm if you wanted to return to previous topic, let me connect to an agent."
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "connect_to_agent",
+              "response": {
+                "transfer_info": {
+                  "target": {}
+                },
+                "agent_available": {
+                  "message": "Let's send you to an available agent."
+                },
+                "agent_unavailable": {
+                  "message": "There are no agents available at this time. When one becomes available, we'll connect you."
+                },
+                "message_to_human_agent": ""
+              }
+            },
+            "variable": "digression_failure",
+            "condition": {
+              "eq": [
+                {
+                  "system_variable": "fallback_reason"
+                },
+                {
+                  "scalar": "Failed to confirm topic return"
+                }
+              ]
+            },
+            "next_step": "step_001"
+          },
+          {
+            "step": "step_001",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text": "I'm afraid I don't understand. I can connect you to an agent."
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "connect_to_agent",
+              "response": {
+                "transfer_info": {
+                  "target": {}
+                },
+                "agent_available": {
+                  "message": "Let's send you to an available agent."
+                },
+                "agent_unavailable": {
+                  "message": "There are no agents available at this time. When one becomes available, we'll connect you."
+                },
+                "message_to_human_agent": ""
+              }
+            },
+            "variable": "step_001",
+            "condition": {
+              "eq": [
+                {
+                  "system_variable": "fallback_reason"
+                },
+                {
+                  "scalar": "Step validation failed"
+                }
+              ]
+            },
+            "next_step": "step_002"
+          },
+          {
+            "step": "step_002",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text": "Sorry I couldn't assist you. I will connect you to an agent right away."
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "connect_to_agent",
+              "response": {
+                "transfer_info": {
+                  "target": {}
+                },
+                "agent_available": {
+                  "message": "Let's send you to an available agent."
+                },
+                "agent_unavailable": {
+                  "message": "There are no agents available at this time. When one becomes available, we'll connect you."
+                },
+                "message_to_human_agent": ""
+              }
+            },
+            "variable": "step_002",
+            "condition": {
+              "eq": [
+                {
+                  "system_variable": "fallback_reason"
+                },
+                {
+                  "scalar": "Agent requested"
+                }
+              ]
+            },
+            "next_step": "step_003"
+          },
+          {
+            "step": "step_003",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text": "I am afraid I do not understand what you are asking, let me connect you to an agent."
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "connect_to_agent",
+              "response": {
+                "transfer_info": {
+                  "target": {}
+                },
+                "agent_available": {
+                  "message": "Let's send you to an available agent."
+                },
+                "agent_unavailable": {
+                  "message": "There are no agents available at this time. When one becomes available, we'll connect you."
+                },
+                "message_to_human_agent": ""
+              }
+            },
+            "variable": "step_003",
+            "condition": {
+              "eq": [
+                {
+                  "system_variable": "fallback_reason"
+                },
+                {
+                  "scalar": "No action matches"
+                }
+              ]
+            },
+            "next_step": "step_004"
+          },
+          {
+            "step": "step_004",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text": "It seems this conversation would be best managed by a human agent. Let me connect you to one of our agents."
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "connect_to_agent",
+              "response": {
+                "transfer_info": {
+                  "target": {}
+                },
+                "agent_available": {
+                  "message": "Let's send you to an available agent."
+                },
+                "agent_unavailable": {
+                  "message": "There are no agents available at this time. When one becomes available, we'll connect you."
+                },
+                "message_to_human_agent": ""
+              }
+            },
+            "variable": "step_004",
+            "condition": {
+              "eq": [
+                {
+                  "system_variable": "fallback_reason"
+                },
+                {
+                  "scalar": "Danger word detected"
+                }
+              ]
+            },
+            "next_step": "step_005"
+          },
+          {
+            "step": "step_005",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text": "It seems this conversation would be best managed by a human agent. Let me connect you to one of our agents."
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "connect_to_agent",
+              "response": {
+                "transfer_info": {
+                  "target": {}
+                },
+                "agent_available": {
+                  "message": "Let's send you to an available agent."
+                },
+                "agent_unavailable": {
+                  "message": "There are no agents available at this time. When one becomes available, we'll connect you."
+                },
+                "message_to_human_agent": ""
+              }
+            },
+            "variable": "step_005",
+            "condition": {
+              "eq": [
+                {
+                  "system_variable": "fallback_reason"
+                },
+                {
+                  "scalar": "Profanity detected"
+                }
+              ]
+            }
+          }
+        ],
+        "title": "Fallback",
+        "action": "fallback",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "fallback_connect_to_agent"
+        },
+        "variables": [
+          {
+            "title": "Topic return failed",
+            "variable": "digression_failure",
+            "data_type": "any"
+          },
+          {
+            "title": "I'm afraid I don't understand. I can connect you to an agent.",
+            "variable": "step_001",
+            "data_type": "any"
+          },
+          {
+            "title": "Sorry I couldn't assist you. I will connect you to an agent righ",
+            "variable": "step_002",
+            "data_type": "any"
+          },
+          {
+            "title": "I am afraid I do not understand what you are asking, let me conn",
+            "variable": "step_003",
+            "data_type": "any"
+          },
+          {
+            "title": "It seems this conversation would be best managed",
+            "variable": "step_004",
+            "data_type": "any"
+          },
+          {
+            "title": "Profanity - It seems this conversation",
+            "variable": "step_005",
+            "data_type": "any"
+          }
+        ],
+        "next_action": "run_always",
+        "disambiguation_opt_out": true
+      },
+      {
+        "steps": [
+          {
+            "step": "danger_word_detected",
+            "title": "Connect to agent",
+            "handlers": [],
+            "resolver": {
+              "type": "fallback"
+            },
+            "variable": "danger_word_detected_variable",
+            "condition": {
+              "entity": "danger_words"
+            },
+            "next_step": "profanity_detected"
+          },
+          {
+            "step": "profanity_detected",
+            "title": "Show warning",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Please use appropriate language when interacting with the assistant."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [
+              {
+                "type": "max_hits",
+                "handler": "max_hits_handler",
+                "resolver": {
+                  "type": "fallback"
+                }
+              }
+            ],
+            "max_hits": 2,
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "profanity_detected_variable",
+            "condition": {
+              "entity": "profane_words"
+            }
+          }
+        ],
+        "title": "Trigger word detected",
+        "action": "run_always",
+        "boosts": [],
+        "handlers": [],
+        "variables": [
+          {
+            "title": "Profanity detected",
+            "variable": "danger_word_detected_variable",
+            "data_type": "any"
+          },
+          {
+            "title": "Profane word detected",
+            "variable": "profanity_detected_variable",
+            "data_type": "any"
+          }
+        ],
+        "next_action": "anything_else"
+      },
+      {
+        "steps": [
+          {
+            "step": "step_001",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text": "I'm afraid I don't understand. Please rephrase your question."
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_001",
+            "condition": {
+              "lte": [
+                {
+                  "system_variable": "no_action_matches_count"
+                },
+                {
+                  "scalar": 3
+                }
+              ]
+            },
+            "next_step": "step_002"
+          },
+          {
+            "step": "step_002",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action_and_end",
+              "invoke_action": {
+                "action": "fallback",
+                "policy": "default",
+                "parameters": null,
+                "result_variable": "step_002_result_1"
+              }
+            },
+            "variable": "step_002",
+            "condition": {
+              "gt": [
+                {
+                  "system_variable": "no_action_matches_count"
+                },
+                {
+                  "scalar": 3
+                }
+              ]
+            }
+          }
+        ],
+        "title": "No action matches",
+        "action": "anything_else",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "expression": "anything_else"
+        },
+        "variables": [
+          {
+            "title": "I am afraid I do not understand what you are asking, please re-p",
+            "variable": "step_001",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_002",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_002_result_1",
+            "data_type": "any"
+          }
+        ],
+        "disambiguation_opt_out": true
+      },
+      {
+        "steps": [
+          {
+            "step": "step_001",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text": "Welcome, how can I assist you?"
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_001"
+          }
+        ],
+        "title": "Greet customer",
+        "action": "welcome",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "expression": "welcome"
+        },
+        "variables": [
+          {
+            "variable": "step_001",
+            "data_type": "any"
+          }
+        ],
+        "next_action": "action_33980",
+        "disambiguation_opt_out": true
+      },
+      {
+        "steps": [
+          {
+            "step": "step_127",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "I am AI chat bot"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_127"
+          }
+        ],
+        "title": "who are you?",
+        "action": "action_48324",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_48324_intent_14991"
+        },
+        "variables": [
+          {
+            "title": "I am AI chat bot",
+            "variable": "step_127",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "fallback",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_378",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "I'm here to help. You might want to look into government housing assistance programs. Could you provide your location for more accurate information?"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_378"
+          }
+        ],
+        "title": "I'm struggling with housing costs. What can I do?",
+        "action": "action_39375",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_39375_intent_34575"
+        },
+        "variables": [
+          {
+            "title": "I'm here to help. You might want to look into government housing",
+            "variable": "step_378",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_48324",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_175",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Applying for unemployment benefits varies by location.Could you tell me which state you're in so I can give you the right information?"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_175"
+          }
+        ],
+        "title": "How can I apply for unemployment benefits?",
+        "action": "action_22884",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_22884_intent_4461"
+        },
+        "variables": [
+          {
+            "title": "Applying for unemployment benefits varies by location.Could you ",
+            "variable": "step_175",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_47399",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_293",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "I'm sorry to hear that. It's important to prioritize your mental health. Would you like me to provide some resources for stress management and mental health support."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_293"
+          }
+        ],
+        "title": "I'm feeling really stressed lately.",
+        "action": "action_47399",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_47399_intent_44123"
+        },
+        "variables": [
+          {
+            "title": "I'm sorry to hear that. It's important to prioritize your mental",
+            "variable": "step_293",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_39375",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_154",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "I can help you find local food drives in your area. Could you provide your city or zip code?"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_154"
+          }
+        ],
+        "title": "Are there any local food drives happening soon?",
+        "action": "action_13325",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_13325_intent_11686"
+        },
+        "variables": [
+          {
+            "title": "I can help you find local food drives in your area. Could you pr",
+            "variable": "step_154",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_49405",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_844",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Absolutely. There are various programs and services catering to senior citizens. Can you please specify what type of assistance you're looking for?"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_844"
+          }
+        ],
+        "title": "Is there any assistance available for senior citizens?",
+        "action": "action_49405",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_49405_intent_15443"
+        },
+        "variables": [
+          {
+            "title": "Absolutely. There are various programs and services catering to ",
+            "variable": "step_844",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_22884",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_334",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Natural Language Processing (NLP) is a fundamental technology in AI chatbots. It enables chatbots to understand and generate human language, allowing for meaningful interactions."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_334"
+          }
+        ],
+        "title": "What is the key technology behind AI chatbots?",
+        "action": "action_38081",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_38081_intent_21430"
+        },
+        "variables": [
+          {
+            "title": "Natural Language Processing (NLP) is a fundamental technology in",
+            "variable": "step_334",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_19544",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_892",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "AI chatbots are trained using large datasets of text and conversations. Machine learning techniques, such as neural networks, are used to learn patterns in the data and make predictions about appropriate responses."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_892"
+          }
+        ],
+        "title": "How can AI chatbots be trained to understand different user inpu",
+        "action": "action_19544",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_19544_intent_26624"
+        },
+        "variables": [
+          {
+            "title": "AI chatbots are trained using large datasets of text and convers",
+            "variable": "step_892",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_49356",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_386",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Designing AI chatbots requires careful thought about user experience, conversation flow, error handling, and personalization. Ethical considerations and data privacy are also crucial."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_386"
+          }
+        ],
+        "title": "What are some important considerations in designing AI chatbots?",
+        "action": "action_49356",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_49356_intent_48745"
+        },
+        "variables": [
+          {
+            "title": "Designing AI chatbots requires careful thought about user experi",
+            "variable": "step_386",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_15183",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_214",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Python is a popular programming language for developing AI chatbots. Libraries like TensorFlow, PyTorch, and spaCy are often used for building AI models."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_214"
+          }
+        ],
+        "title": "What programming languages are commonly used to develop AI chatb",
+        "action": "action_15183",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_15183_intent_9898"
+        },
+        "variables": [
+          {
+            "title": "Python is a popular programming language for developing AI chatb",
+            "variable": "step_214",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_6887",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_924",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "AI chatbots can provide instant customer support, automate tasks, offer personalized recommendations, and enhance user engagement on websites and applications."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_924"
+          }
+        ],
+        "title": "How can AI chatbots benefit businesses and users?",
+        "action": "action_6887",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_6887_intent_24504"
+        },
+        "variables": [
+          {
+            "title": "AI chatbots can provide instant customer support, automate tasks",
+            "variable": "step_924",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_20177",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_810",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Challenges include training the chatbot to handle diverse user inputs accurately, avoiding biases in responses, maintaining context during conversations, and ensuring seamless integration with existing systems."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_810"
+          }
+        ],
+        "title": "What challenges might arise when developing AI chatbots?",
+        "action": "action_20177",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_20177_intent_2681"
+        },
+        "variables": [
+          {
+            "title": "Challenges include training the chatbot to handle diverse user i",
+            "variable": "step_810",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_13325",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      }
+    ],
+    "intents": [
+      {
+        "intent": "action_6887_intent_24504",
+        "examples": [
+          {
+            "text": "How can AI chatbots benefit businesses and users?"
+          }
+        ]
+      },
+      {
+        "intent": "action_30121_intent_31923",
+        "examples": [
+          {
+            "text": "Are there any quotes or phrases that inspire you when things feel tough?"
+          }
+        ]
+      },
+      {
+        "intent": "action_15183_intent_9898",
+        "examples": [
+          {
+            "text": "What programming languages are commonly used to develop AI chatbots?"
+          }
+        ]
+      },
+      {
+        "intent": "action_49356_intent_48745",
+        "examples": [
+          {
+            "text": "What are some important considerations in designing AI chatbots?"
+          }
+        ]
+      },
+      {
+        "intent": "action_13325_intent_11686",
+        "examples": [
+          {
+            "text": "Are there any local food drives happening soon?"
+          }
+        ]
+      },
+      {
+        "intent": "action_46002_intent_9445",
+        "examples": [
+          {
+            "text": "Have you traveled to any exciting places recently, or is there a destination you've always wanted to visit?"
+          }
+        ]
+      },
+      {
+        "intent": "action_22884_intent_4461",
+        "examples": [
+          {
+            "text": "How can I apply for unemployment benefits?"
+          }
+        ]
+      },
+      {
+        "intent": "action_2672_intent_6776",
+        "examples": [
+          {
+            "text": "Is there a hobby or activity that you enjoy doing to unwind?"
+          }
+        ]
+      },
+      {
+        "intent": "action_33980_intent_14701",
+        "examples": [
+          {
+            "text": "How's your day going so far?"
+          }
+        ]
+      },
+      {
+        "intent": "action_10029_intent_37807",
+        "examples": [
+          {
+            "text": "What's your favorite way to enjoy a quiet, peaceful moment?"
+          }
+        ]
+      },
+      {
+        "intent": "action_38081_intent_21430",
+        "examples": [
+          {
+            "text": "What is the key technology behind AI chatbots?"
+          }
+        ]
+      },
+      {
+        "intent": "action_19544_intent_26624",
+        "examples": [
+          {
+            "text": "How can AI chatbots be trained to understand different user inputs?"
+          }
+        ]
+      },
+      {
+        "intent": "action_28048_intent_25169",
+        "examples": [
+          {
+            "text": "Do you have a favorite type of music that helps you relax?"
+          }
+        ]
+      },
+      {
+        "intent": "action_39375_intent_34575",
+        "examples": [
+          {
+            "text": "I'm struggling with housing costs. What can I do?"
+          }
+        ]
+      },
+      {
+        "intent": "action_47399_intent_44123",
+        "examples": [
+          {
+            "text": "I'm feeling really stressed lately."
+          }
+        ]
+      },
+      {
+        "intent": "action_23198_intent_21086",
+        "examples": [
+          {
+            "text": "Have you come across any interesting movies or books lately?"
+          }
+        ]
+      },
+      {
+        "intent": "action_7166_intent_38783",
+        "examples": [
+          {
+            "text": "Are there any funny or heartwarming stories from your life that you'd like to share?"
+          }
+        ]
+      },
+      {
+        "intent": "action_49405_intent_15443",
+        "examples": [
+          {
+            "text": "Is there any assistance available for senior citizens?"
+          }
+        ]
+      },
+      {
+        "intent": "action_20177_intent_2681",
+        "examples": [
+          {
+            "text": "What challenges might arise when developing AI chatbots?"
+          }
+        ]
+      },
+      {
+        "intent": "action_33348_intent_25057",
+        "examples": [
+          {
+            "text": "Have you tried meditation or mindfulness exercises before?"
+          }
+        ]
+      },
+      {
+        "intent": "action_48324_intent_14991",
+        "examples": [
+          {
+            "text": "who are you?"
+          }
+        ]
+      },
+      {
+        "intent": "action_36486_intent_47600",
+        "examples": [
+          {
+            "text": "How do you usually de-stress when things get tough?"
+          }
+        ]
+      },
+      {
+        "intent": "fallback_connect_to_agent",
+        "examples": [
+          {
+            "text": "Call agent"
+          },
+          {
+            "text": "Agent help"
+          },
+          {
+            "text": "I would like to speak to a human"
+          },
+          {
+            "text": "Can I connect to an agent?"
+          },
+          {
+            "text": "I would like to speak to someone"
+          }
+        ],
+        "description": "Please transfer me to an agent"
+      }
+    ],
+    "entities": [
+      {
+        "entity": "danger_words",
+        "values": [],
+        "fuzzy_match": false
+      },
+      {
+        "entity": "sys-yes-no",
+        "values": []
+      },
+      {
+        "entity": "profane_words",
+        "values": [],
+        "fuzzy_match": false
+      }
+    ],
+    "metadata": {
+      "api_version": {
+        "major_version": "v2",
+        "minor_version": "2018-11-08"
+      },
+      "skill": {
+        "counts": {
+          "actions": 26,
+          "intents": 23,
+          "entities": 3,
+          "data_types": 0,
+          "collections": 0,
+          "global_variables": 0
+        }
+      }
+    },
+    "variables": [],
+    "data_types": [],
+    "collections": [],
+    "counterexamples": [],
+    "system_settings": {
+      "variable": {
+        "format": {
+          "time": {
+            "pattern": "short"
+          },
+          "currency": {
+            "fraction_digits": 2
+          }
+        }
+      },
+      "off_topic": {
+        "enabled": true
+      },
+      "auto_learn": {
+        "apply": true
+      },
+      "topic_switch": {
+        "enabled": true,
+        "messages": {
+          "enable_confirmation": true,
+          "confirmation_failure": {
+            "generic": [
+              {
+                "values": [
+                  {
+                    "text_expression": {
+                      "concat": [
+                        {
+                          "scalar": "I'm sorry, I did not catch that, please confirm."
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "response_type": "text",
+                "selection_policy": "sequential"
+              }
+            ]
+          },
+          "confirmation_request": {
+            "generic": [
+              {
+                "values": [
+                  {
+                    "text_expression": {
+                      "concat": [
+                        {
+                          "scalar": "Do you want to continue with the previous topic: "
+                        },
+                        {
+                          "system_variable": "digressed_from"
+                        },
+                        {
+                          "scalar": "?"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "response_type": "text",
+                "selection_policy": "sequential"
+              },
+              {
+                "options": [
+                  {
+                    "label": "Yes",
+                    "value": {
+                      "input": {
+                        "text": "Yes"
+                      }
+                    }
+                  },
+                  {
+                    "label": "No",
+                    "value": {
+                      "input": {
+                        "text": "No"
+                      }
+                    }
+                  }
+                ],
+                "response_type": "option",
+                "repeat_on_reprompt": true
+              }
+            ]
+          }
+        },
+        "max_tries": 3
+      },
+      "disambiguation": {
+        "prompt": "Did you mean:",
+        "enabled": true,
+        "randomize": true,
+        "max_suggestions": 5,
+        "suggestion_text_policy": "title",
+        "none_of_the_above_prompt": "None of the above",
+        "use_connect_to_support_prompt": "Connect to support",
+        "single_answer_clarification_prompt": "Something else"
+      },
+      "spelling_auto_correct": true
+    },
+    "learning_opt_out": false,
+    "language": "en"
+  },
+  "description": "created for assistant 4a9d983d-b6ea-4f38-9788-71068bd52450",
+  "dialog_settings": {
+    "source_assistant": "f498350b-41e4-49cb-991b-9c54f043ceed"
+  },
+  "created": "2023-08-29T15:08:18.596Z",
+  "updated": "2023-08-29T15:08:18.596Z",
+  "snapshot": "2",
+  "assistant_id": "4a9d983d-b6ea-4f38-9788-71068bd52450",
+  "assistant_references": [
+    {
+      "name": "ATM Bot",
+      "assistant_id": "f498350b-41e4-49cb-991b-9c54f043ceed",
+      "skill_reference": "actions skill"
+    }
+  ]
+  <!DOCTYPE html>
+  <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>chat bot</title>
+          <link rel="stylesheet" type="text/css" href="static/index.css" />
+          <script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+      </head>
+      <body class="demo-1 render">
+          <main>
+          </main>
+      <script>
+          window.watsonAssistantChatOptions = {
+          integrationID: "632523be-f09f-4506-84a1-887403b2d2de", // The ID of this integration.
+          region: "au-syd", // The region your integration is hosted in.
+          serviceInstanceID: "469a0c87-3c6c-495d-9618-5f53ab06be9b", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+          };
+          setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+              // Load the chat script when the page loads
+          window.onload = loadChatScript;
+      </script>
+      </body>
+  </html>
